@@ -5,22 +5,24 @@
 # Laravel 10 + Vite + Vue2 + Vuetify2 
 
 ## Requirement
-- php 8.1 or above
+- php 8.1 or 8.2
 - node 16 or above
 
 ## ⚡️ How to install
 
 1. `composer install`
 2. `cp .env.example .env`
-5. `php artisan key:generate`   
-6. `npm install`
-7. `npm run dev`
-8. `php artisan migrate`
-8. `php artisan serve`
+3. `php artisan key:generate`   
+4. `npm install`
+5. `npm run build`
+6. `php artisan migrate`
+7. `php artisan serve`
+
 
 ## Notes
 
 - It runs on an SQLite database for ease of setup.
+  The migration command will prompt you to create the SQLite database.
 
 
 
